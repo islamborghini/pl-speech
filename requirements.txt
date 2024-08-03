@@ -1,8 +1,10 @@
-setuptools
-pyaudio
-SpeechRecognition
-torch
-numpy
-git+https://github.com/openai/whisper.git
-PyQt5
-deep-translator
+setuptools==70.0.0
+PyAudio==0.2.14
+SpeechRecognition==3.10.4
+torch==2.3.1
+numpy==1.26.4
+openai-whisper @ git+https://github.com/openai/whisper.git@ba3f3cd54b0e5b8ce1ab3de13e32122d0d5f98ab
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.14
+PyQt5-sip==12.13.0
+deep-translator==1.11.4
